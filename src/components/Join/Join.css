@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.JoinPage{
+    background-color: rgb(31,29,29);
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.JoinPageContainer{
+    border: 2px solid white;
+    width: 50%;
+    /* height: 50%; */
+    padding: 2vmax 0vmax;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.JoinPageContainer img{
+    width:10vmax;
+    height: 10vmax;
+    margin: 1vmax;
+}
+
+.JoinPageContainer h1{
+    font: 600 3vmax 'Roboto';
+    border-bottom: 3px solid white;
+    padding: 1vmax;
+    text-align: center;
+    color: white;
+    width: 30vmax;
+}
+
+#JoinInput ,.JoinBtn{
+    width: 30vmax;
+    border: none;
+    padding: 1.5vmax;
+    border-radius: 5px;
+    margin: 1vmax;
+    outline: none;
+    font: 1.2vmax;
+}
+
+.JoinBtn{
+  
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    transition: all .6s;
+
+}
+
+.JoinBtn:hover{
+
+    transform: scale(1.08);
+    background-color: rgb(83, 81, 81);
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+}

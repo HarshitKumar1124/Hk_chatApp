@@ -1,0 +1,82 @@
+
+@font-face{
+    font-family: "Styled";
+    src:url(../../../fonts/RoosterPersonalUse-3z8d8.ttf)
+}
+
+.ChatPage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+
+.chartContainer{
+
+    background-color: white;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2.5vmax;
+    padding: 2vmax;
+    font-family: "Styled";
+    height: 15%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ChartBox{
+    background: url("../../Images/wallpaper.jpg") repeat-x fixed center;
+  background-size: contain;
+  
+    height: 70%;
+    padding-bottom: 1vmax;
+}
+
+.InputBox{
+    background-color: rgb(173, 153, 153);
+    height: 15%;
+    border-radius: 0 0 10px 10px;
+}
+
+.InputBox input{
+
+    width: 85%;
+    height: 100%;
+    border-radius: 0px 0px 0px 10px;
+    border: none;
+    outline: none;
+    padding:1vmax;
+    font: 400 1vmax 'Roboto';
+
+}
+
+.InputBox .SendBtn{
+    color: white;
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    border-radius: 0;
+    position: relative;
+    bottom: 1.6px;
+    transition: all 0.5s;
+}
+
+.InputBox .SendBtn:hover{
+    background-color: black;
+    font-size: 1.2vmax;
+    text-shadow: 0px 0px 10px white;
+
+}
+
